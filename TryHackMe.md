@@ -104,3 +104,19 @@ LAN = Local Area Network
 &emsp;&emsp;**主要功能：** 网络硬件的物理组件，以二进制数字系统（0和1）相互传输数据。
 
 ## 数据包 & 数据帧
+**数据包(Packets):**寄的物品，包含IP地址；
+**数据帧(Frame):**寄物品的包装，包含物理地址和差错检验。
+
+### TCP数据包头内包含的字段
+- 源端口(Source Port)
+- 目的地端口(Destination Port)
+- 源IP地址(Source IP)
+- 目的IP地址(Destination IP)
+- 序列号(Sequence Number)
+- 确认号(Acknowledgment Number)
+- 校验和(checkcum)
+- 数据(data)
+- 标记(Flags)
+
+
+
