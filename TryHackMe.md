@@ -116,7 +116,8 @@ LAN = Local Area Network
 - 确认号(Acknowledgment Number)
 - 校验和(checkcum)
 - 数据(data)
-- 标记(Flags)
+- 标记(Flags):SYN, ACK, FIN, RST, PSH, URG
+
 
 
 
